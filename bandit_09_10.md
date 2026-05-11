@@ -9,7 +9,9 @@
 ```bash
 ssh
 ls
-
+cat
+strings
+grep
 ```
 
 ### 실행 과정
