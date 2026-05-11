@@ -64,7 +64,7 @@ cat /var/lib/dpkg/info/bandit7.password
 ###### `find`와 `cat`을 한번에 실행하는 방법
 저번 레벨 마크다운에도 작성한 것과 마찬가지로 `-exec`를 쓰면 된다.
 ```bash
-find -user bandit7 -group bandit6 size 33c -exec cat {} \; 2>/dev/null
+find -user bandit7 -group bandit6 -size 33c -exec cat {} \; 2>/dev/null
 ```
 `2>/dev/null`가 find 바로 뒤에 들어가도 잘 작동하긴 하지만 관습적으로 맨 뒤에 작성한다고 한다.
 
