@@ -7,11 +7,11 @@
 * `owned by group bandit6` : 그룹이 `bandit6`
 * `33 bytes in size` : 사이즈가 `33bytes`
 
-## 사용한 명령어
+## 사용한 명령어 및 문법
 ```bash
 ssh
 ls -a
-find
+find /
 2>/dev/null
 cat
 ```
